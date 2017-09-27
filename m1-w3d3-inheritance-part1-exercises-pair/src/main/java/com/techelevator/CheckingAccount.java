@@ -1,6 +1,6 @@
 package com.techelevator;
 
-public class CheckingAccount extends BankAccount {
+public class CheckingAccount extends BankAccount implements BankTeller  {
 
 	 @Override
 	 public DollarAmount withdraw(DollarAmount amountToWithdraw) {

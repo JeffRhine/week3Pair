@@ -1,6 +1,6 @@
 package com.techelevator;
 
-public class BankAccount {
+public class BankAccount implements BankTeller {
 
 	private String accountNumber;
 	private DollarAmount balance;

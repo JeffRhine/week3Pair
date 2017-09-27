@@ -1,6 +1,6 @@
 package com.techelevator;
 
-public class SavingsAccount extends BankAccount{
+public class SavingsAccount extends BankAccount implements BankTeller {
 
 	public DollarAmount withdraw(DollarAmount amountToWithdraw) {
 		if(getBalance().minus(amountToWithdraw).isLessThan(new DollarAmount(0))) {

@@ -1,6 +1,6 @@
 package com.techelevator;
 
-public class DollarAmount {
+public class DollarAmount implements BankTeller{
 
     public static final DollarAmount ZERO_DOLLARS = new DollarAmount(0);
     

@@ -3,7 +3,7 @@ package com.techelevator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BankCustomer {
+public class BankCustomer implements BankTeller {
 	private String name;
 	private String address;
 	private String phoneNumber;
